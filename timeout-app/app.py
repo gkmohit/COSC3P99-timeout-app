@@ -94,7 +94,7 @@ waitTime = 15;
 for table in TABLES:
     print("Creating table: " + table)
     mycursor.execute(TABLES[table])
-    print("Sleeping for " + waitTime + "s");
+    print("Sleeping for " , waitTime , "s");
     time.sleep(waitTime)
     waitTime += 15;
 mycursor.execute("Show tables;")

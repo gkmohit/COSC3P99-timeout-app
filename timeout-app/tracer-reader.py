@@ -1,7 +1,7 @@
 import babeltrace
 
 # Specify the path to the trace directory
-trace_path = "/path/to/lttng/trace/directory"
+trace_path = "~/lttng-traces/auto-20230426-011044/kernel/channel0_0"
 
 # Create a trace collection
 trace_collection = babeltrace.TraceCollection()
